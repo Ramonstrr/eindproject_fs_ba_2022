@@ -1,0 +1,42 @@
+footer {
+  width: 100%;
+  background-color: coral;
+  display: flex;
+  justify-content: center;
+  padding: 0.9rem;
+  bottom: 0;
+  color: rgb(92, 92, 92);
+}
+
+#footer-content {
+  width: 45rem;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-left-icon {
+  color: rgb(92, 92, 92);
+  font-size: 2rem;
+  padding: 0.3rem;
+  transition: all 300ms ease-in;
+}
+
+.footer-left-icon:hover {
+  color: rgb(201, 201, 206);
+}
+
+footer li {
+  list-style: none;
+  color: rgb(55, 55, 55);
+}
+
+footer li a {
+  text-decoration: none;
+  color: rgb(55, 55, 55);
+}
+
+footer li a:hover {
+  text-decoration: none;
+  color: rgb(85, 85, 85);
+}

@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+main {
+  width: 100%;
+}
+
+#container {
+  width: 70%;
+  margin: 2rem auto;
+  background-color: rgb(230, 230, 230);
+  margin-bottom: 1rem;
+  min-height: 100vh;
+}
+
+#userInput {
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#options {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+}
+
+#options th,
+#options td {
+  text-align: left;
+  padding: 12px;
+}
+
+#options tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#options tr.header {
+  background-color: #f1f1f1;
+}
+
+td a {
+  text-decoration: none;
+  color: #232757;
+}
+
+td a:visited {
+  color: rgb(82, 82, 82);
+}
+
+td a:hover {
+  color: #ffffff;
+}
